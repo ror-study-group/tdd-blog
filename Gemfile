@@ -28,7 +28,6 @@ gem 'jbuilder', '~> 1.2'
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-
   gem 'factory_girl_rails'
 end
 
@@ -36,6 +35,8 @@ group :development do
   gem 'pry'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'capybara'
+  gem 'launchy'
 end
 
 group :test do
@@ -43,7 +44,6 @@ group :test do
   gem 'terminal-notifier-guard'
   gem 'simplecov'
   gem 'rspec-rails'
-  gem 'capybara'
 end
 
 group :doc do
